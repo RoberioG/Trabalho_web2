@@ -1,0 +1,15 @@
+footer.footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: black;
+    padding: 0 25px;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+}
+
+.footer a{
+    padding-left: 10px;
+    padding-right: 5px;
+}

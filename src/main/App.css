@@ -1,0 +1,68 @@
+:root{
+    
+    --bg-dark: #EA1D2C;
+
+    --logo-height: 100px;
+    --header-height: 100px
+    --aside-width: width: 20px;
+    --footer-height: 40px;
+
+    --shadow:
+        0 2px 23px 0 rgba(0,0,0,0.1),
+        0 2px 49px 0 rgba(0,0,0,0.6);
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.app{
+    margin: 0px;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 15% 75%;
+    grid-template-areas:
+        "logo header"
+        "menu content"
+        "menu footer"
+    ;
+    background-color:white;
+    
+}
+
+aside.logo{
+    grid-area: logo;
+    position:fixed;
+    width: 15%;
+    height: 15%;
+    top: 0%;
+}
+
+header.header{
+    grid-area: header;
+}
+
+aside.menu-area{
+    grid-area: menu;
+    position:fixed;
+    width: 15%;
+    height: 85%;
+    bottom: 0%;
+}
+
+main.content{
+    grid-area: content;
+}
+
+footer.footer{
+    grid-area: footer;
+    position:fixed;
+    width: 100%;
+    height: 10%;
+    bottom: 0%;
+}
+

@@ -1,0 +1,33 @@
+#content-1x1{
+    background-color: white;
+    color: var(--bg-dark);
+    color: white
+}
+
+#texto{
+    padding: 10px;
+    margin-top: 0px;
+    background: rgb(234,29,44);
+    background: linear-gradient(180deg, rgba(234,29,44,1) 0%, black 100%);
+}
+
+#bloco-2x2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    border-style: groove;
+    padding-bottom: 50px;
+}
+
+#content-1x1{
+    margin: 10px;
+    border-style: groove;
+    border-color: var(--bg-dark);
+    justify-content: center;
+    align-items: center;
+
+}
+
+#content-1x1 img{
+    width: 100%;
+}
